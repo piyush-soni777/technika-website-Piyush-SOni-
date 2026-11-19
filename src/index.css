@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-hand {
+    font-family: 'Caveat', cursive;
+  }
+  .font-marker {
+    font-family: 'Permanent Marker', cursive;
+  }
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Hanging Sway Animation for Tree Leaves */
+@keyframes branchSway1 {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes branchSway2 {
+  0%, 100% {
+    transform: rotate(2.5deg);
+  }
+  50% {
+    transform: rotate(-2.5deg);
+  }
+}
+
+@keyframes branchSway3 {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2.2deg);
+  }
+}
+
+.hanging-frame-1 {
+  transform-origin: top center;
+  animation: branchSway1 4.2s ease-in-out infinite;
+}
+
+.hanging-frame-2 {
+  transform-origin: top center;
+  animation: branchSway2 5.0s ease-in-out infinite;
+}
+
+.hanging-frame-3 {
+  transform-origin: top center;
+  animation: branchSway3 4.6s ease-in-out infinite;
+}
+
+/* Continuous smooth swaying without pausing on hover */
+.hanging-frame-1:hover, .hanging-frame-2:hover, .hanging-frame-3:hover {
+  animation-play-state: running;
+}
+
+/* Left to Right Infinite Marquee Ticker */
+@keyframes marqueeLeftToRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee-l2r {
+  display: flex;
+  width: max-content;
+  animation: marqueeLeftToRight 28s linear infinite;
+  will-change: transform;
+}
