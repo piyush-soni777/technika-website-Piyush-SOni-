@@ -1,18 +1,17 @@
 # technika-website-Piyush-SOni
 
 **Achieving Harmony Through Innovation**
-
 Technika 6.0 is an interactive college fest website designed to showcase the journey, events, memories and achievements of Technika from 1.0 to 6.0.
 The website combines creative animations, interactive elements and a digital platform to make the fest experience more engaging.
-
 ## 📸 Campus Lens – Our Real-Life Solution
-
 > **The Problem:** Colleges often struggle to collect quality photographs from different events in one place.
-
 > **Our Solution:** Campus Lens provides a shared platform where students can upload fest photographs, while admins can review, manage and shortlist the best pictures for college magazines, newspapers, social media and promotions.
 
-**One Platform. Every Moment. One Collection.**
+**live preview:-**
 
+Uploading technika video like.mp4…
+
+**One Platform. Every Moment. One Collection.**
 ## ✨ Features
 
 - **Technika Timeline:** Showcases the journey from Technika 1.0 to 6.0.
