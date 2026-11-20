@@ -11,7 +11,13 @@ The website combines creative animations, interactive elements and a digital pla
 
 
 
-Uploading technika video like.mp4…
+
+
+https://github.com/user-attachments/assets/1b7da9bc-e48b-4b6a-892d-deea75afe657
+
+
+
+
 
 
 
