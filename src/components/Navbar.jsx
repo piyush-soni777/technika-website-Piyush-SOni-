@@ -126,13 +126,14 @@ export default function Navbar({ onOpenEvents, onOpenAdmin }) {
           {/* Admin Coordinator shortcut */}
           <button
             onClick={() => {
-              playNavClickSound('bubble');
+              playNavClickSound('action');
               onOpenAdmin();
             }}
             title="Coordinator Admin Panel"
-            className="p-2 rounded-xl text-slate-400 hover:text-slate-800 hover:bg-slate-100 transition-colors cursor-pointer"
+            className="px-3.5 py-2 text-xs font-black uppercase tracking-wider rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-900 border-2 border-black shadow-[2.5px_2.5px_0px_0px_rgba(0,0,0,1)] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none transition-all flex items-center gap-1.5 cursor-pointer"
           >
-            <ShieldCheck className="w-4 h-4" />
+            <ShieldCheck className="w-3.5 h-3.5 text-slate-900" />
+            <span>Admin</span>
           </button>
         </div>
 
