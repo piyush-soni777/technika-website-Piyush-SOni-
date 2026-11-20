@@ -13,18 +13,6 @@ The website combines creative animations, interactive elements and a digital pla
 https://github.com/user-attachments/assets/cca594e8-fcf0-4505-bec3-0e795f8a721b
 
 
-
-
-
-
-https://github.com/user-attachments/assets/1b7da9bc-e48b-4b6a-892d-deea75afe657
-
-
-
-
-
-
-
 **One Platform. Every Moment. One Collection.**
 ## ✨ Features
 
