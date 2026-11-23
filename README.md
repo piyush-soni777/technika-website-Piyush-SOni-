@@ -1,5 +1,5 @@
 # technika-website-Piyush-SOni
-
+ 
 **Achieving Harmony Through Innovation**
 Technika 6.0 is an interactive college fest website designed to showcase the journey, events, memories and achievements of Technika from 1.0 to 6.0.
 The website combines creative animations, interactive elements and a digital platform to make the fest experience more engaging.
