@@ -5,7 +5,7 @@ Technika 6.0 is an interactive college fest website designed to showcase the jou
 The website combines creative animations, interactive elements and a digital platform to make the fest experience more engaging.
 ## 📸 Campus Lens – Our Real-Life Solution
 > **The Problem:** Colleges often struggle to collect quality photographs from different events in one place.
-> **Our Solution:** Campus Lens provides a shared platform where students can upload fest photographs, while admins can review, manage and shortlist the best pictures for college magazines, newspapers, social media and promotions.
+> **Our Solution:** Campus Lens provides a shared platform where students can upload fest photographs, while admins can review, manage and shortlist the best pictures for college magazines, newspapers, social media and promotions. 
   
 **live preview:-**
 
